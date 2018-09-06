@@ -1,0 +1,2 @@
+export const INITIAL_POSITION = [13.527207, 52.457478];
+export const WH_TRAM = [13.525665, 52.458826];

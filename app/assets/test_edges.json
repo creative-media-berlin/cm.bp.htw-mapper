@@ -1,0 +1,88 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {
+      "type": "Feature",
+      "properties": {
+        "line": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            13.527148137177363, 52.45760188475535
+
+          ],
+          [
+            13.527261043609627, 52.45758454775685
+          ],
+        ],
+        "type": "LineString"
+      }
+    },{
+        "type": "Feature",
+        "properties": {
+          "line": 1
+        },
+        "geometry": {
+          "coordinates": [
+            [
+              13.527261043609627, 52.45758454775685
+            ],
+            [
+              13.527230216472077, 52.45755821385174
+
+            ],
+          ],
+          "type": "LineString"
+        }
+      },{
+          "type": "Feature",
+          "properties": {
+            "line": 1
+          },
+          "geometry": {
+            "coordinates": [
+              [
+                13.527230216472077, 52.45755821385174
+              ],
+              [
+                13.527161304118323, 52.45749850725193
+              ],
+            ],
+            "type": "LineString"
+          }
+        },{
+            "type": "Feature",
+            "properties": {
+              "line": 1
+            },
+            "geometry": {
+              "coordinates": [
+                [
+                13.527161304118323, 52.45749850725193
+                ],
+                [
+                  13.527207192477277, 52.45747846385402
+                ],
+              ],
+              "type": "LineString"
+            }
+          },{
+              "type": "Feature",
+              "properties": {
+                "line": 1
+              },
+              "geometry": {
+                "coordinates": [
+                  [
+                    13.527148137177363, 52.45760188475535
+                  ],
+                  [
+                     13.527230216472077, 52.45755821385174
+                  ],
+                ],
+                "type": "LineString"
+              }
+            }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "HTWMapper",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "lint": "eslint app",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android-bundle": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --sourcemap-output android/app/src/main/assets/index.android.map --assets-dest android/app/src/main/res/",
+    "android-device": "npm run android-bundle && react-native run-android"
+  },
+  "dependencies": {
+    "@mapbox/react-native-mapbox-gl": "^6.0.2",
+    "@turf/boolean-point-in-polygon": "^5.0.4",
+    "@turf/centroid": "^5.0.4",
+    "@turf/nearest": "^4.7.3",
+    "async_hooks": "^1.0.0",
+    "fuse.js": "^3.2.0",
+    "geojson-path-finder": "^1.5.0",
+    "pathfinding": "git://github.com/schteppe/PathFinding3D.js.git#master",
+    "prop-types": "^15.6.0",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-native-elements": "^0.18.5",
+    "react-native-flexi-radio-button": "^0.2.2",
+    "react-native-indicators": "^0.10.0",
+    "react-native-material-ui": "^1.14.0",
+    "react-native-popup-dialog": "^0.10.43",
+    "react-native-popup-menu": "^0.9.0",
+    "react-native-radio-button": "^2.0.1",
+    "react-native-simple-radio-button": "^2.7.1",
+    "react-native-statusbar-alert": "^0.4.0",
+    "react-native-swipe-gestures": "^1.0.2",
+    "react-native-swipe-list-view": "^1.0.3",
+    "react-native-vector-icons": "^4.4.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "reselect": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "babel-jest": "18.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.9.2",
+    "eslint-plugin-jsx-a11y": "1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "jest": "18.1.0",
+    "react-native-cli": "^2.0.1",
+    "react-test-renderer": "^16.1.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

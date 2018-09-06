@@ -1,0 +1,23 @@
+{
+  "env": {
+    "node": true, // this is the best starting point
+    "es6": true // enables es6 features
+  },
+  "parser": "babel-eslint", // needed to make babel stuff work properly
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true, // checks spread operator properly
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "import" // does something for import export syntax
+  ],
+  "rules": {
+    "arrow-body-style": "off", // ESLint bug in combination with no-confusing-arrow rule
+    "max-len": "warn"
+  }
+}
