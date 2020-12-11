@@ -77,7 +77,7 @@ MIT License
 
 ### Contributors
 
-[Johannes Brunner](https://github.com/jannesbrunner),
+[Jannes Brunner](https://github.com/jannesbrunner),
 [Jonathan Derin](https://github.com/bbrinx),
 [Georg Donner](https://github.com/georgdonner),
 [Juliane Fink](https://github.com/SyJuly),
